@@ -13,7 +13,7 @@ before_install:
   - sleep 60  # Wait for TestSuite is ready
   
 jdk:
-  - oraclejdk8
+  - oraclejdk11
 
 script:
   - ./gradlew test build
